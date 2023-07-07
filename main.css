@@ -1,0 +1,72 @@
+.screen{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  background-color: darkcyan;
+  padding: 50px;width: 600px;
+  border-radius: 11px;
+  border: 2px solid red;
+}
+.title{
+  text-align: center;
+  font-weight: bold;
+  font-family: fantasy;
+  background-color: transparent;
+  padding: 30px 0px;
+  text-shadow: 
+  0 1px 20px black,
+  0 1px 20px black,
+  0 1px 20px black,
+  0 1px 20px black
+  ;
+}
+
+.top span{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  
+}
+.top input[type=number]{
+  font-size: 18px;
+  width: 220px;
+  padding: 10px 5px;
+  border: 1px solid red;
+  background: black;
+  color: green;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-transform: capitalize;
+}.top input[type=number]::placeholder{
+  color: green;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.submit{
+  float: right;
+  margin: 10px 9px;
+}
+
+.rzlt{
+  margin-top: 5rem;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.remainingtx{
+  margin-top: 5rem;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.win_loas{
+  color: #333;
+  font-weight: bolder;
+  margin-top: 22px;
+}

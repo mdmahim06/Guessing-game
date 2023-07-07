@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-color:black;
+    --border-color:black;
+    --transition:all 0.3s;
+    --texdt-transform-uppercase:uppercase;
+    --texdt-transform-lowercase:lowercase;
+}
+
+@keyframes border {
+    0%{border-color: red;}
+    10%{border-color: yellow;}
+    20%{border-color: green;}
+    30%{border-color: blue;}
+    40%{border-color: rgb(255, 166, 0);}
+    50%{border-color: rgb(78, 25, 221);}
+    60%{border-color: rgb(105, 121, 15);}
+    70%{border-color: rgb(0, 255, 149);}
+    80%{border-color: rgb(255, 0, 0);}
+    90%{border-color: rgb(255, 162, 0);}
+    100%{border-color: rgb(25, 0, 255);}
+}@keyframes bordersubmit{
+    0%{border-color: red; transform: rotate(380deg);}
+    20%{border-color: rgb(255, 255, 255);}
+    40%{border-color: rgb(255, 166, 0);}
+    60%{border-color: rgb(221, 81, 25);}
+    80%{border-color: rgb(0, 255, 149);}
+    100%{border-color: rgb(0, 255, 76);}
+}
+
+@keyframes rottat {
+    0%{transform: rotate(360deg);}
+    50%{transform: rotate(360000deg);}
+    100%{transform: rotate(360deg);}
+}

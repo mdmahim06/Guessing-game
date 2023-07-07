@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web design</title>
+    <!-- important css fils -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- icons css files -->
+
+    <link rel="stylesheet" href="important.css" />
+    <link
+      rel="shortcut icon"
+      href="Mahim_logo.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="animation.css" />
+
+    <!-- defelt css files -->
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+  <body>
+    <div class="sltdiv">
+      <div class="screen">
+        <div class="main">
+          <h1 class="title">gessing game</h1>
+          <form class="form" onsubmit="return false">
+          <div class="top">
+            <span>Enter your gassing number 1-10 <b>:</b></span>
+            <input type="number" min="1" max="10" placeholder="gassing number" onkeyup="keyup()">
+            <br>
+          </div>
+          <div class="btnDiv">
+            <button class="submit btn">Chack</button>
+          </div>
+          <div class="rzlt">
+            <span class="jsrzlt"></span>
+          </div>
+          <div class="remaining">
+            <span class="remainingtx"></span>
+          </div>
+          <div class="win_loas">
+            <h1>
+              <span class="totalrzlt"></span>
+            </h1>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+ 
